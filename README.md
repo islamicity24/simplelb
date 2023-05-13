@@ -18,6 +18,14 @@ Usage:
         Port to serve (default 3030)
 ```
 
+In TERMINAL :
+
+```
+docker compose up
+```
+```
+docker compose up -d
+```
 Example:
 
 To add followings as load balanced backends
@@ -28,3 +36,5 @@ To add followings as load balanced backends
 ```bash
 simple-lb.exe --backends=http://localhost:3031,http://localhost:3032,http://localhost:3033,http://localhost:3034
 ```
+
+![image](https://github.com/islamicity24/simplelb/assets/126258837/8f6bfea6-f665-453f-87a0-bea13bf98969)
