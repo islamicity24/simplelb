@@ -2,7 +2,7 @@
 
 Simple LB is the simplest Load Balancer ever created.
 
-It uses RoundRobin algorithm to send requests into set of backends and support
+It uses [RoundRobin algorithm](#RoundRobin algorithm) to send requests into set of backends and support
 retries too.
 
 It also performs active cleaning and passive recovery for unhealthy backends.
@@ -36,5 +36,7 @@ To add followings as load balanced backends
 ```bash
 simple-lb.exe --backends=http://localhost:3031,http://localhost:3032,http://localhost:3033,http://localhost:3034
 ```
+
+#RoundRobin algorithm
 
 ![image](https://github.com/islamicity24/simplelb/assets/126258837/8f6bfea6-f665-453f-87a0-bea13bf98969)
