@@ -44,7 +44,7 @@ simple-lb.exe --backends=http://localhost:3031,http://localhost:3032,http://loca
 # RoundRobin-algorithm
 
 jelaskan prinsip, kontex dan fungsi serta manfaat nya dari : RoundRobin algorithm
-ChatGPT
+
 RoundRobin algorithm adalah salah satu algoritma scheduling atau penjadwalan dalam sistem komputer yang digunakan untuk membagi waktu pemrosesan CPU (Central Processing Unit) secara adil dan merata di antara beberapa proses yang berjalan secara bersamaan. Prinsip kerja algoritma ini adalah dengan membagi waktu CPU secara periodik atau berulang-ulang (round-robin) dengan durasi waktu yang sama untuk setiap proses yang berada dalam antrian.
 
 Konteks dari RoundRobin algorithm adalah algoritma penjadwalan yang digunakan dalam sistem operasi untuk mengatur antrian proses yang membutuhkan pemrosesan CPU. Algoritma ini bekerja dengan mengalokasikan waktu pemrosesan yang sama untuk setiap proses dalam antrian, sehingga memastikan bahwa setiap proses memiliki kesempatan yang sama untuk mendapatkan sumber daya CPU.
